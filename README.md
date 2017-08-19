@@ -2,6 +2,10 @@
 
 Interface with Code Climate API via Ruby using this gem.
 
+## TODOS
+
+List of APIs to be implemented found [here](TODO.md)
+
 ## Installation
 
 Add this line to your application's Gemfile:
