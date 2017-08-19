@@ -1,0 +1,22 @@
+These are the Code Climate API TODOS as per [here](https://docs.codeclimate.com/docs/api).
+
+- [x] **`GET /user`**
+- [ ] **`GET /orgs`**
+- [ ] **`POST /orgs`**
+- [ ] **`POST /orgs/:org_id/repos`**
+- [ ] **`GET /repos?github_slug=`**
+- [x] **`GET /repos/:repo_id`**
+- [x] **`GET /repos/:repo_id/metrics/:name`**
+- [x] **`GET /repos/:repo_id/ref_points`**
+- [x] **`GET /repos/:repo_id/builds`**
+- [ ] **`GET /repos/:repo_id/builds/:number`**
+- [x] **`GET /repos/:repo_id/snapshots/:snapshot_id`**
+- [ ] **`GET /repos/:repo_id/snapshots/:snapshot_id/files`**
+- [ ] **`GET /repos/:repo_id/snapshots/:snapshot_id/issues`**
+- [x] **`GET /repos/:repo_id/test_reports`**
+- [ ] **`GET /repos/:repo_id/test_reports/:test_report_id/test_file_reports`**
+- [x] **`GET /repos/:repo_id/services`**
+- [ ] **`POST /repos/:repo_id/services/:service_id/events`**
+- [ ] **`GET /repos/:repo_id/pulls/:number/files`**
+- [ ] **`POST /test_reports`**
+- [ ] **`POST repos/:repo_id/test_reports/:id/test_file_reports/batch`**

@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/services
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:30 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"86f7e738433d4d37acaeb33e0c755c19"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.011292'
+      X-Request-Id:
+      - 80aa6abf-c3a1-4f53-8ddc-585cb1522f0a
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"592e3171b12e12027100019d","type":"services","attributes":{"slug":"githubpullrequests","title":"GitHub
+        Pull Requests","description":"Update pull requests on GitHub"},"links":{"events":"https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/services/592e3171b12e12027100019d/events"}}]}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:24 GMT
+recorded_with: VCR 3.0.3

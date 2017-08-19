@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/repos/592e3170b12e120271000199
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:21 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"7b76bdc17ec62989b4f890cc40801056"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.023425'
+      X-Request-Id:
+      - e673b8f7-ca91-481b-a5d9-6391b473001a
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"592e3170b12e120271000199","type":"repos","attributes":{"analysis_version":3521,"badge_token":"60afde200c2dbeb3902b","branch":"master","created_at":"2017-05-31T02:58:56.948Z","github_slug":"wnuqui/cm","human_name":"cm","last_activity_at":"2017-08-17T08:36:52.472Z","score":4.0},"relationships":{"latest_default_branch_snapshot":{"data":{"id":"599555991d132f0001014dd5","type":"snapshots"}},"latest_default_branch_test_report":{"data":{"id":"592e361e9c3ce9000102b590","type":"test_reports"}},"account":{"data":null}},"links":{"self":"https://codeclimate.com/github/wnuqui/cm","services":"https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/services","web_coverage":"https://codeclimate.com/github/wnuqui/cm/coverage","web_issues":"https://codeclimate.com/github/wnuqui/cm/issues"},"meta":{"permissions":{"admin":true}}}}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:16 GMT
+recorded_with: VCR 3.0.3

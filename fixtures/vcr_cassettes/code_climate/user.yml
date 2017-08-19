@@ -1,0 +1,61 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/user?page%5Bnumber%5D=1&page%5Bsize%5D=1
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:35 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"01f87483b8f76f6d24e76d011f489314"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.020608'
+      X-Request-Id:
+      - 03d09ed5-eb93-4c43-8ea4-22a87a11a13b
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"58b90c67c0ec0b0286002146","type":"users","attributes":{"email":"dofreewill22@gmail.com","enabled_features":["builder_pull_engines","disable_transactions","encrypted_ssh_private_keys","ignore_owners_team","manage_issues_permission","open_source_repo_list","time_series_metrics","trends_via_time_series","use_kafka_for_test_report_created","use_kafka_for_vcs_pull_request_changed","use_kafka_for_vcs_repo_added","use_kafka_for_vcs_repo_push","use_kafka_for_vcs_repo_refresh","use_kafka_for_vcs_repo_updated"],"full_name":"Wilfrido
+        Nuqui","staff":false},"links":{"avatar":"https://avatars.githubusercontent.com/u/1292222"}}}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:29 GMT
+recorded_with: VCR 3.0.3

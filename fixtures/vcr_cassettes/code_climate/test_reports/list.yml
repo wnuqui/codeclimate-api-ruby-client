@@ -1,0 +1,63 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/test_reports
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:34 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"2df04eacc173845516828b02c78e6abd"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.010618'
+      X-Request-Id:
+      - acbe6744-f857-4682-8fac-3ab97ca707de
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"592e361e9c3ce9000102b590","type":"test_reports","attributes":{"commit_sha":"bf8c7b6a430e8a27eb4a4f3c65d02bcbb9c1fe2e","committed_at":"2017-05-31T03:17:37.000Z","covered_percent":100.0,"rating":{"path":"/","letter":"A","measure":{"value":100.0,"unit":"percent"},"pillar":"Test
+        Coverage"},"state":"done"}},{"id":"592e35409c3ce9000102b3cb","type":"test_reports","attributes":{"commit_sha":"7e1ed81c1d81dcd21da5ed5aeb4478ca906998ed","committed_at":"2017-05-31T03:13:15.000Z","covered_percent":100.0,"rating":{"path":"/","letter":"A","measure":{"value":100.0,"unit":"percent"},"pillar":"Test
+        Coverage"},"state":"done"}},{"id":"592e34839c3ce9000102b1ee","type":"test_reports","attributes":{"commit_sha":"aa025d1c7af2099642ce7dae7ae4d9f8d9875cc6","committed_at":"2017-05-31T02:53:05.000Z","covered_percent":100.0,"rating":{"path":"/","letter":"A","measure":{"value":100.0,"unit":"percent"},"pillar":"Test
+        Coverage"},"state":"done"}}],"links":{}}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:28 GMT
+recorded_with: VCR 3.0.3

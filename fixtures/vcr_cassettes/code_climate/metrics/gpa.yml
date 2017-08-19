@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/metrics/gpa?filter%5Bfrom%5D=2017-05-01&filter%5Bto%5D=2017-08-01
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:25 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"41d0ae6be89c4c78e84c6f1ca8d6bd8b"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.014674'
+      X-Request-Id:
+      - 5e5d0db2-268d-41dd-8398-07849f9c438b
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"592e31798683380001000017","type":"metrics","attributes":{"name":"gpa","points":[{"timestamp":1493596800,"value":null},{"timestamp":1494201600,"value":null},{"timestamp":1494806400,"value":null},{"timestamp":1495411200,"value":null},{"timestamp":1496016000,"value":4.0},{"timestamp":1496620800,"value":4.0},{"timestamp":1497225600,"value":4.0},{"timestamp":1497830400,"value":4.0},{"timestamp":1498435200,"value":4.0},{"timestamp":1499040000,"value":4.0},{"timestamp":1499644800,"value":4.0},{"timestamp":1500249600,"value":4.0},{"timestamp":1500854400,"value":4.0},{"timestamp":1501459200,"value":4.0}]}}}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:19 GMT
+recorded_with: VCR 3.0.3

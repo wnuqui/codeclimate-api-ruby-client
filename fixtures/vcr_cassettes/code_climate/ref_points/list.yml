@@ -1,0 +1,60 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.codeclimate.com/v1/repos/592e3170b12e120271000199/ref_points
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.12.2
+      Content-Type:
+      - application/vnd.api+json
+      Accept:
+      - application/vnd.api+json
+      Authorization:
+      - Token token=TOKEN
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 19 Aug 2017 13:26:29 GMT
+      Content-Type:
+      - application/vnd.api+json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Status:
+      - 200 OK
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      Etag:
+      - W/"f6f3d8e4c69a16cd02acbe8192d8538c"
+      X-Frame-Options:
+      - SAMEORIGIN
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Content-Type-Options:
+      - nosniff
+      X-Runtime:
+      - '0.016548'
+      X-Request-Id:
+      - 0ef38922-a55d-441e-a95e-252cb858543d
+      X-Powered-By:
+      - Phusion Passenger 5.1.1
+      Server:
+      - nginx + Phusion Passenger 5.1.1
+      Strict-Transport-Security:
+      - max-age=31536000;
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"592e35d241a3c10001000334","type":"ref_points","attributes":{"analyzed":true,"branch":"master","commit_sha":"bf8c7b6a430e8a27eb4a4f3c65d02bcbb9c1fe2e","created_at":"2017-05-31T03:17:38.970Z","ref":"refs/heads/master"},"relationships":{"snapshot":{"data":{"id":"599555991d132f0001014dd5","type":"snapshots"}}}},{"id":"592e35328b67b00001000341","type":"ref_points","attributes":{"analyzed":true,"branch":"build/add-codeclimate","commit_sha":"7e1ed81c1d81dcd21da5ed5aeb4478ca906998ed","created_at":"2017-05-31T03:14:58.691Z","ref":"refs/pull/8/head"},"relationships":{"snapshot":{"data":{"id":"592e353244016b0001011fa3","type":"snapshots"}}}},{"id":"592e317130ad8500010002e9","type":"ref_points","attributes":{"analyzed":true,"branch":"master","commit_sha":"aa025d1c7af2099642ce7dae7ae4d9f8d9875cc6","created_at":"2017-05-31T02:58:57.330Z","ref":"refs/heads/master"},"relationships":{"snapshot":{"data":{"id":"592e317144016b0001011d73","type":"snapshots"}}}}],"links":{}}'
+    http_version: 
+  recorded_at: Sat, 19 Aug 2017 13:20:23 GMT
+recorded_with: VCR 3.0.3
