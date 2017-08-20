@@ -1,4 +1,5 @@
 # CodeClimate::Client - Code Climate API Ruby Client
+[![Build Status](https://semaphoreci.com/api/v1/wnuqui/codeclimate-api-ruby-client/branches/master/badge.svg)](https://semaphoreci.com/wnuqui/codeclimate-api-ruby-client) <a href="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client"><img src="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client/badges/gpa.svg" /></a> <a href="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client"><img src="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client/badges/issue_count.svg" /></a> <a href="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client/coverage"><img src="https://codeclimate.com/github/wnuqui/codeclimate-api-ruby-client/badges/coverage.svg" /></a>
 
 Interface with Code Climate API via Ruby using this gem.
 
